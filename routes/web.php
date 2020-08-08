@@ -26,7 +26,11 @@ Route::post('dashboard/post/{post}/image','dashboard\PostController@image')->nam
 Route::resource('dashboard/category', 'dashboard\CategoryController');
 
 /*
-    Video 57-07-2020
+    Video 57-07-2020 
 */
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
