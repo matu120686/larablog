@@ -88,11 +88,9 @@
                 </div>
 
                 @auth
-                {{ auth()->user() }}
-                @endauth
+                {{ auth()->user()->name }} {{ auth()->user()->surname }}               
 
-
-                
+                @endauth               
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
