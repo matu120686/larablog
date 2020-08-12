@@ -14,7 +14,7 @@
                 Titulo
             </th>
             <th>
-                Categorìa
+                Categoría
             </th>
             <th>
                 Posteado
@@ -40,7 +40,7 @@
                 {{$post->title}}
             </td>
             <td>
-                {{$post->category->title}}
+            {{$post->content/*category->title*/}}
             </td>
             <td>
                 {{$post->posted}}
