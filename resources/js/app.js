@@ -29,4 +29,30 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
+    data: {
+        message: 'Hello Vuasdse!',
+        posts: [
+
+            {
+                title: "Titulo1 ",
+                image: "1570399183.png",
+                content: "Bienvenidos al primer contenido del post",
+            },
+
+            {
+                title: "Titulo 2",
+                image: "1570399183.png",
+                content: "Bienvenidos al primer contenido del post",
+            },
+
+            {
+                title: "Titulo 3",
+                image: "1570399183.png",
+                content: "Bienvenidos al primer contenido del post",
+            }
+
+        ],
+
+    }
+
 });
