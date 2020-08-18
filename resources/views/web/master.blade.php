@@ -14,12 +14,13 @@
     <title>Modulo admin</title>
 </head> 
 <body>
-   @include('dashboard.partials.nav-header-main')
+   @include('web.partials.nav-header-main')
 
   <div class="container" id= "app" >        
         @yield('content')
   </div>
-
+  @include('web.partials.footer')
+   
 <script src="{{asset("js/app.js")}}"></script>
 </body>
 </html>
